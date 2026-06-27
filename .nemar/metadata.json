@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Alphabetic Decision Task (Arial Light Font)",
+  "description": "This dataset comprises EEG recordings from an alphabetic decision task using Arial Light font, collected to investigate sub-letter orthographic processing through optimal transport modeling. Participants performed a letter discrimination task while EEG data were recorded and synchronized with behavioral responses and stimulus information. The dataset includes 6 participants with detailed annotations of recording issues and data quality markers.",
+  "methods_description": "EEG data were recorded during an alphabetic decision task and processed using MNE-BIDS. Data were synchronized with behavioral responses, stimulus information, and metadata. Recording issues including interrupted sessions and channel wiring corrections are documented and corrected in the BIDS version.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,12 +20,27 @@
       "orcid": "0000-0003-0827-1721"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005594.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "orthographic processing"
+    },
+    {
+      "term": "letter discrimination"
+    },
+    {
+      "term": "decision task"
+    },
+    {
+      "term": "optimal transport"
+    },
+    {
+      "term": "visual perception"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1101/2024.11.11.622929",
       "identifier_type": "DOI",
@@ -48,20 +65,29 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005594.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "Goethe University Fokus"
+    },
+    {
+      "funder_name": "Goethe University",
+      "award_title": "Goethe University Fokus"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "11.7 GB (49 files)"
   ],
   "formats": [
     ".eeg",
@@ -69,28 +95,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from an alphabetic decision task using Arial Light font, collected from multiple participants at Goethe University. Participants performed orthographic processing judgments on letter stimuli while continuous EEG was recorded. The dataset includes behavioral responses, stimulus information, and detailed metadata, with corrections applied for channel wiring issues and concatenated recordings where necessary.",
-  "methods_description": "EEG data were recorded during an alphabetic decision task and subsequently organized using MNE-BIDS. Data processing included correction of channel wiring errors (FT7 and FC3 channels swapped in raw data), concatenation of interrupted recordings with boundary event markers, and inclusion of BAD periods for key presses and break intervals.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "orthographic processing"
-    },
-    {
-      "term": "letter recognition"
-    },
-    {
-      "term": "decision task"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    }
-  ],
-  "source_hash": "8d21b539cb93a0c58b18284b0c9aed4239a922dc8823d24cb23d770806b1dd43"
+  "source_hash": "8fd05c6cf11cc5c65113cdaa9d6ceb4ba105707ef9e3feee2fd4a00b860d91a5"
 }
