@@ -1,36 +1,96 @@
 {
   "version": "2.0",
-  "dataset_id": "on005594",
-  "source": "openneuro",
-  "source_id": "ds005594",
+  "pipeline_stage": "validated",
   "title": "Alphabetic Decision Task (Arial Light Font)",
-  "authors": {
-    "Jack E. Taylor": {},
-    "Rasmus Sinn": {},
-    "Cosimo Iaia": {},
-    "Christian J. Fiebach": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Jack E. Taylor": {
+      "orcid": "0000-0003-4765-0118"
+    },
+    "Rasmus Sinn": {
+      "orcid": "0009-0008-6058-506X"
+    },
+    "Cosimo Iaia": {
+      "orcid": "0000-0002-4317-4540"
+    },
+    "Christian J. Fiebach": {
+      "orcid": "0000-0003-0827-1721"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005594.v1.0.3",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2024.11.11.622929",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005594",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005594",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "Goethe University Fokus"
     }
   ],
-  "acknowledgements": "Taylor, J.E., Sinn, R., Iaia, C., & Fiebach, C. J. (2024). Beyond Letters: Optimal Transport as a Model for Sub-Letter Orthographic Processing. https://doi.org/10.1101/2024.11.11.622929"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises EEG recordings from an alphabetic decision task using Arial Light font, collected from multiple participants at Goethe University. Participants performed orthographic processing judgments on letter stimuli while continuous EEG was recorded. The dataset includes behavioral responses, stimulus information, and detailed metadata, with corrections applied for channel wiring issues and concatenated recordings where necessary.",
+  "methods_description": "EEG data were recorded during an alphabetic decision task and subsequently organized using MNE-BIDS. Data processing included correction of channel wiring errors (FT7 and FC3 channels swapped in raw data), concatenation of interrupted recordings with boundary event markers, and inclusion of BAD periods for key presses and break intervals.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "orthographic processing"
+    },
+    {
+      "term": "letter recognition"
+    },
+    {
+      "term": "decision task"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "8d21b539cb93a0c58b18284b0c9aed4239a922dc8823d24cb23d770806b1dd43"
 }
