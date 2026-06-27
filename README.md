@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005594-blue)](https://doi.org/10.82901/nemar.on005594)
+
 Generated from raw data by MNE-BIDS (Appelhoff et al., 2019) and custom code to join to behavioural data, stimulus information, and metadata.
 
 ## Notes on the Data
