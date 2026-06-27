@@ -1,24 +1,30 @@
 {
-    "Name": "Alphabetic Decision Task (Arial Light Font)",
-    "BIDSVersion": "1.7.0",
-    "DatasetType": "raw",
-    "License": "CC0",
-    "Authors": [
-        "Jack E. Taylor",
-        "Rasmus Sinn",
-        "Cosimo Iaia",
-        "Christian J. Fiebach"
-    ],
-    "Funding": [
-        "Goethe University Fokus"
-    ],
-    "EthicsApprovals": [
-        "Goethe University Ethics Commission for Psychology and Sport Science 2023-43"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005594.v1.0.3",
-    "ReferencesAndLinks": [
-        "https://doi.org/10.1101/2024.11.11.622929",
-        "https://gin.g-node.org/JackEdTaylor/lettersim-ot-rsa"
-    ],
-    "Acknowledgements": "Taylor, J.E., Sinn, R., Iaia, C., & Fiebach, C. J. (2024). Beyond Letters: Optimal Transport as a Model for Sub-Letter Orthographic Processing. https://doi.org/10.1101/2024.11.11.622929"
+  "Name": "Alphabetic Decision Task (Arial Light Font)",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "raw",
+  "License": "CC0",
+  "Authors": [
+    "Jack E. Taylor",
+    "Rasmus Sinn",
+    "Cosimo Iaia",
+    "Christian J. Fiebach"
+  ],
+  "Funding": [
+    "Goethe University Fokus"
+  ],
+  "EthicsApprovals": [
+    "Goethe University Ethics Commission for Psychology and Sport Science 2023-43"
+  ],
+  "DatasetDOI": "10.82901/nemar.on005594",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1101/2024.11.11.622929",
+    "https://gin.g-node.org/JackEdTaylor/lettersim-ot-rsa"
+  ],
+  "Acknowledgements": "Taylor, J.E., Sinn, R., Iaia, C., & Fiebach, C. J. (2024). Beyond Letters: Optimal Transport as a Model for Sub-Letter Orthographic Processing. https://doi.org/10.1101/2024.11.11.622929",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005594.v1.0.3"
+    }
+  ],
+  "Version": "1.0.0"
 }
